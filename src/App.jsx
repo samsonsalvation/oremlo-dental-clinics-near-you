@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     {/* defining routes */}
-    <Router>
+    <Router basename="/oremlo-dental-clinics-near-you">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<div>Services Page</div>} />
